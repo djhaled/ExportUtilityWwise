@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\uWwise2WAV\\ExportUtilityWwise\\ExportUtilityWwise.csproj": {}
+    "E:\\ExportUtilityWwise\\ExportUtilityWwise\\ExportUtilityWwise.csproj": {}
   },
   "projects": {
-    "E:\\uWwise2WAV\\CUE4Parse\\CUE4Parse-Conversion\\CUE4Parse-Conversion.csproj": {
+    "E:\\ExportUtilityWwise\\CUE4Parse\\CUE4Parse-Conversion\\CUE4Parse-Conversion.csproj": {
       "version": "1.0.4",
       "restore": {
-        "projectUniqueName": "E:\\uWwise2WAV\\CUE4Parse\\CUE4Parse-Conversion\\CUE4Parse-Conversion.csproj",
+        "projectUniqueName": "E:\\ExportUtilityWwise\\CUE4Parse\\CUE4Parse-Conversion\\CUE4Parse-Conversion.csproj",
         "projectName": "CUE4Parse-Conversion",
-        "projectPath": "E:\\uWwise2WAV\\CUE4Parse\\CUE4Parse-Conversion\\CUE4Parse-Conversion.csproj",
+        "projectPath": "E:\\ExportUtilityWwise\\CUE4Parse\\CUE4Parse-Conversion\\CUE4Parse-Conversion.csproj",
         "packagesPath": "C:\\Users\\BERNA\\.nuget\\packages\\",
-        "outputPath": "E:\\uWwise2WAV\\CUE4Parse\\CUE4Parse-Conversion\\obj\\",
+        "outputPath": "E:\\ExportUtilityWwise\\CUE4Parse\\CUE4Parse-Conversion\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\uWwise2WAV\\CUE4Parse\\CUE4Parse\\CUE4Parse.csproj": {
-                "projectPath": "E:\\uWwise2WAV\\CUE4Parse\\CUE4Parse\\CUE4Parse.csproj"
+              "E:\\ExportUtilityWwise\\CUE4Parse\\CUE4Parse\\CUE4Parse.csproj": {
+                "projectPath": "E:\\ExportUtilityWwise\\CUE4Parse\\CUE4Parse\\CUE4Parse.csproj"
               }
             }
           }
@@ -81,14 +81,14 @@
         }
       }
     },
-    "E:\\uWwise2WAV\\CUE4Parse\\CUE4Parse\\CUE4Parse.csproj": {
+    "E:\\ExportUtilityWwise\\CUE4Parse\\CUE4Parse\\CUE4Parse.csproj": {
       "version": "1.0.4",
       "restore": {
-        "projectUniqueName": "E:\\uWwise2WAV\\CUE4Parse\\CUE4Parse\\CUE4Parse.csproj",
+        "projectUniqueName": "E:\\ExportUtilityWwise\\CUE4Parse\\CUE4Parse\\CUE4Parse.csproj",
         "projectName": "CUE4Parse",
-        "projectPath": "E:\\uWwise2WAV\\CUE4Parse\\CUE4Parse\\CUE4Parse.csproj",
+        "projectPath": "E:\\ExportUtilityWwise\\CUE4Parse\\CUE4Parse\\CUE4Parse.csproj",
         "packagesPath": "C:\\Users\\BERNA\\.nuget\\packages\\",
-        "outputPath": "E:\\uWwise2WAV\\CUE4Parse\\CUE4Parse\\obj\\",
+        "outputPath": "E:\\ExportUtilityWwise\\CUE4Parse\\CUE4Parse\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -178,14 +178,14 @@
         }
       }
     },
-    "E:\\uWwise2WAV\\ExportUtilityWwise\\ExportUtilityWwise.csproj": {
+    "E:\\ExportUtilityWwise\\ExportUtilityWwise\\ExportUtilityWwise.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\uWwise2WAV\\ExportUtilityWwise\\ExportUtilityWwise.csproj",
+        "projectUniqueName": "E:\\ExportUtilityWwise\\ExportUtilityWwise\\ExportUtilityWwise.csproj",
         "projectName": "ExportUtilityWwise",
-        "projectPath": "E:\\uWwise2WAV\\ExportUtilityWwise\\ExportUtilityWwise.csproj",
+        "projectPath": "E:\\ExportUtilityWwise\\ExportUtilityWwise\\ExportUtilityWwise.csproj",
         "packagesPath": "C:\\Users\\BERNA\\.nuget\\packages\\",
-        "outputPath": "E:\\uWwise2WAV\\ExportUtilityWwise\\obj\\",
+        "outputPath": "E:\\ExportUtilityWwise\\ExportUtilityWwise\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -206,11 +206,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\uWwise2WAV\\CUE4Parse\\CUE4Parse-Conversion\\CUE4Parse-Conversion.csproj": {
-                "projectPath": "E:\\uWwise2WAV\\CUE4Parse\\CUE4Parse-Conversion\\CUE4Parse-Conversion.csproj"
+              "E:\\ExportUtilityWwise\\CUE4Parse\\CUE4Parse-Conversion\\CUE4Parse-Conversion.csproj": {
+                "projectPath": "E:\\ExportUtilityWwise\\CUE4Parse\\CUE4Parse-Conversion\\CUE4Parse-Conversion.csproj"
               },
-              "E:\\uWwise2WAV\\CUE4Parse\\CUE4Parse\\CUE4Parse.csproj": {
-                "projectPath": "E:\\uWwise2WAV\\CUE4Parse\\CUE4Parse\\CUE4Parse.csproj"
+              "E:\\ExportUtilityWwise\\CUE4Parse\\CUE4Parse\\CUE4Parse.csproj": {
+                "projectPath": "E:\\ExportUtilityWwise\\CUE4Parse\\CUE4Parse\\CUE4Parse.csproj"
               }
             }
           }

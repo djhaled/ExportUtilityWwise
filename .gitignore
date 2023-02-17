@@ -1,0 +1,76 @@
+# Build output
+ExportUtilityWwise/bin/
+obj/
+
+# Visual Studio files
+*.user
+*.suo
+*.sln.docstates
+*.vs/
+*.vssscc
+.vscode/
+
+# Packages
+packages/
+*.nupkg
+*.paket.*
+paket-files/
+
+# Test Results
+TestResults/
+[Tt]est[Rr]esult*/
+*.trx
+*.log
+
+# Resharper files
+_ReSharper.*/
+*.ReSharper*
+*.DotSettings
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+x64/
+x86/
+Any CPU/
+*.cache
+*.ilk
+*.meta
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.log
+*.vspscc
+*.vshost.*
+*._i.c
+*.fusepdb
+ipch/
+*.opensdf
+*.sdf
+*.pdb
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+
+# Build directories for all configurations
+[Dd]ebug*/
+[Rr]elease*/
+x64*/
+x86*/
+Any CPU*/
+
+# Publish profiles
+Properties/PublishProfiles/
+
+# Rider IDE files
+.idea/
+*.sln.iml
+*.csproj.iml
