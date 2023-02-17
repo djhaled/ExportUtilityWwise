@@ -17,7 +17,6 @@ namespace ExportUtilityWwise
         public string gameDirectory { get; set; }
         public string aesKey { get; set; }
         public string objectPath { get; set; }
-        public string exportDirectory { get; set; }
         public EGame gameOverride { get; set; }
     }
     public static class EventBasedAudioExportVal
@@ -28,7 +27,6 @@ namespace ExportUtilityWwise
         private const string DefaultGameDirectory = @"C:\Riot Games\VALORANT\live\ShooterGame\Content\Paks";
         private const string DefaultAesKey = "0x4BE71AF2459CF83899EC9DC2CB60E22AC4B3047E0211034BBABE9D174C069DD6";
         private const string DefaultObjectPath = "ShooterGame/Content/WwiseAudio/Events/SFX/UI/Events_UI_InGame/InGame/Play_sfx_UI_MatchVictory.uasset";
-        private const string DefaultExportDirectory = @"C:\BKAudioExports";
         private const EGame DefaultGameOverride = EGame.GAME_Valorant;
 
 
@@ -42,7 +40,7 @@ namespace ExportUtilityWwise
             provider.LoadLocalization(ELanguage.English);
 
             var allExports = provider.LoadObjectExports(_config.objectPath);
-            var mediaExportFolder = Path.Combine(_config.exportDirectory, "MediaExports");
+            var mediaExportFolder = Path.Combine("MediaExports");
 
             if (!Directory.Exists(mediaExportFolder))
             {
@@ -53,6 +51,8 @@ namespace ExportUtilityWwise
             {
                 if (export.Class.Name == "AkAudioEventData") { SaveAudio(export, mediaExportFolder); }
             }
+            Console.WriteLine("Press Enter to exit...");
+            Console.ReadLine();
 
         }
 
@@ -72,7 +72,6 @@ namespace ExportUtilityWwise
                     gameDirectory = DefaultGameDirectory,
                     aesKey = DefaultAesKey,
                     objectPath = DefaultObjectPath,
-                    exportDirectory = DefaultExportDirectory,
                     gameOverride = DefaultGameOverride
                 };
                 SaveConfig();
@@ -104,8 +103,7 @@ namespace ExportUtilityWwise
 
                 var mediaFileName = i == 0 ? $"{eventName}.wem" : $"{eventName}_{i}.wem";
 
-                var tt = game_path.Replace("ShooterGame/Content/WwiseAudio/Events", "").TrimStart('/').Replace('/', '\\');
-                var mediaFilePath = Path.Combine(mediaExportFolder, tt) + ".wem";
+                var mediaFilePath = Path.Combine(mediaExportFolder, game_path) + ".wem";
 
                 if (!Directory.Exists(Path.GetDirectoryName(mediaFilePath)))
                 {
@@ -123,7 +121,7 @@ namespace ExportUtilityWwise
 
         private static void ConvertAudioToWav(string inputFilePath, string outputFilePath)
         {
-            var vgmstreamPath = Path.Combine(_config.exportDirectory, "vgmstream-win", "test.exe");
+            var vgmstreamPath = Path.Combine("vgmstream-win", "test.exe");
             if (vgmstreamPath == null)
             {
                 Console.WriteLine("Could not find VgmStream installed, Please install from here https://github.com/vgmstream/vgmstream/releases/latest/download/vgmstream-win.zip on your AudioExport folder. ");
