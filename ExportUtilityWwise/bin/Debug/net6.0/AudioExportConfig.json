@@ -1,0 +1,7 @@
+{
+  "gameDirectory": "C:\\Riot Games\\VALORANT\\live\\ShooterGame\\Content\\Paks",
+  "aesKey": "0x4BE71AF2459CF83899EC9DC2CB60E22AC4B3047E0211034BBABE9D174C069DD6",
+  "objectPath": "ShooterGame/Content/WwiseAudio/Events/SFX/UI/Events_UI_InGame/InGame/Play_sfx_UI_MatchVictory.uasset",
+  "exportDirectory": "C:\\BKAudioExports",
+  "gameOverride": "GAME_Valorant"
+}
