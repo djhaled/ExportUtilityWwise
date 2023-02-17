@@ -1,8 +1,9 @@
-## Wwise 
-ExportUtilityWwise
+## ExportUtilityWwise 
 
-## Project Description
+## What is it?
 A C# console application for exporting audio from Unreal Engine games that use Wwise, and converting them into wave (WAV) format.
+
+You input a Wwise event name and extract the .wav file corresponding to the event.
 
 ## Requirements
 This project requires the following software:
@@ -20,8 +21,6 @@ VgmStream, which can be downloaded from https://github.com/vgmstream/vgmstream/r
                     // ..0x4BE71AF2459CF83899EC9DC2CB60E22AC4B3047E0211034BBABE9D174C069DD6
    objectPath  = "Path to the audio event you want to download"
                     // .."ShooterGame/Content/WwiseAudio/Events/SFX/UI/Events_UI_InGame/InGame Play_sfx_UI_MatchVictory.uasset"
-   exportDirectory = "Path to your export folder "
-                   // ..D:\\AudioExportsGame
    gameOverride = "IMPORTANT: the unreal version your game is in"
                   // ..GAME_Valorant / GAME_SeaOfThieves
 
