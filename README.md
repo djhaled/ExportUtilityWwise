@@ -1,8 +1,9 @@
-## Wwise 
-ExportUtilityWwise
+## ExportUtilityWwise 
 
-## Project Description
+## What is it?
 A C# console application for exporting audio from Unreal Engine games that use Wwise, and converting them into wave (WAV) format.
+
+You input a Wwise event name and extract the .wav file corresponding to the event.
 
 ## Requirements
 This project requires the following software:
