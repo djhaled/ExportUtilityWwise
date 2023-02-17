@@ -8,7 +8,7 @@ using Newtonsoft.Json;
 using CUE4Parse.UE4.Assets.Exports;
 using System.Diagnostics;
 using CUE4Parse_Conversion.Sounds;
-using Serilog;
+
 
 namespace ExportUtilityWwise
 {
